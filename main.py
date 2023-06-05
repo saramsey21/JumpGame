@@ -154,7 +154,7 @@ player_stand = pygame.image.load('graphics/Player/player_stand.png').convert_alp
 player_stand_scaled = pygame.transform.rotozoom(player_stand, 0, 2)
 player_stand_rect = player_stand_scaled.get_rect(center = (400, 200))
 
-game_name = test_font.render('Snail Jump', False, (111, 196, 169))
+game_name = test_font.render('Jumping Game', False, (111, 196, 169))
 game_name_rect = game_name.get_rect(center = (400, 80))
 
 game_message = test_font.render('Press Space to Run', False, (111, 196, 169))
